@@ -1,0 +1,28 @@
+.conte{
+    padding-top: 5%;
+    padding-right: 10%;
+    list-style: none;
+    display: flex; /* Muestra los elementos en una fila */
+    display: flex; /* Muestra los elementos en una fila */
+    justify-content: center;
+    align-items: center;
+}
+.listado{
+    position: absolute;
+    width: 90%;
+}
+.lista{
+    padding-right: 10%;
+    list-style: none;
+    display: flex; /* Muestra los elementos en una fila */
+    justify-content: center;
+    align-items: center;
+}
+.listado li{
+    padding-left: 50px;
+}
+.listado a{
+    text-align: center;
+    text-decoration: none;
+    color:#000000;
+}
