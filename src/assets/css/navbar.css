@@ -1,0 +1,22 @@
+.nav{
+    background-color: black;
+    width: 90%;
+    right: 5%;
+    top:-20px;
+    position: absolute;
+    
+}
+/* components/Navbar.module.css */
+.navLis{
+    list-style: none;
+    display: flex; /* Muestra los elementos en una fila */
+}
+li{
+    margin-top:2%; 
+    padding-left: 50px;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
