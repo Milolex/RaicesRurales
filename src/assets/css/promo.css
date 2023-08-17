@@ -1,5 +1,5 @@
 .conte{
-    padding-top: 5%;
+    padding-top: 2%;
     padding-right: 10%;
     list-style: none;
     display: flex; /* Muestra los elementos en una fila */
@@ -8,10 +8,12 @@
     align-items: center;
 }
 .listado{
+    
     position: absolute;
     width: 90%;
 }
 .lista{
+    margin-top: -10px;
     padding-right: 10%;
     list-style: none;
     display: flex; /* Muestra los elementos en una fila */
