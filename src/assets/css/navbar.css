@@ -8,12 +8,16 @@
 }
 /* components/Navbar.module.css */
 .navLis{
+    padding-right: 10%;
     list-style: none;
     display: flex; /* Muestra los elementos en una fila */
+    justify-content: flex-end;
 }
 li{
-    margin-top:2%; 
+    
+    margin-top:1%; 
     padding-left: 50px;
+    
 }
 a{
     text-align: center;
