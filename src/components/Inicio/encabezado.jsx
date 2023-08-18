@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import image from "../../assets/images/imgencabezado.jpg"
+import image from "../../assets/images/enca.jpg"
 import "../../assets/css/encabezado.css" 
 
 

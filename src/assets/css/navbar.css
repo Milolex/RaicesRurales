@@ -1,13 +1,17 @@
 .nav{
     background-color: black;
     width: 90%;
+    height:85px;
     right: 5%;
-    top:-20px;
+    top:-10px;
     position: absolute;
     
 }
+
 /* components/Navbar.module.css */
 .navLis{
+    align-items: center;
+    width: 90%;
     padding-right: 10%;
     list-style: none;
     display: flex; /* Muestra los elementos en una fila */
@@ -15,7 +19,7 @@
 }
 li{
     
-    margin-top:1%; 
+    margin-top:0%; 
     padding-left: 50px;
     
 }
@@ -24,3 +28,14 @@ a{
     text-decoration: none;
     color: white;
 }
+
+div .logo{
+    background:url('../images/logo.png');
+    width: 70%;
+    height: 60px;
+    background-size:contain;
+    background-repeat: no-repeat;
+
+}
+
+
