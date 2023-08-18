@@ -1,11 +1,8 @@
 import React from 'react';
-
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/Inicio/navBar';
-import Promo from './components/Inicio/promo';
 import Encabezado from './components/Inicio/encabezado';
-
+import Promo from './components/Inicio/promo';
 
 function App() {
   return (
