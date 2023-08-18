@@ -1,5 +1,10 @@
 .encabezado-container{
     height: 400px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/imgencabezado.jpg');
+
 }
 .encabezado-container img{
     height: 100%;

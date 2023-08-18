@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <Encabezado/>
+      <Promo/>
     </div>
   );
 }

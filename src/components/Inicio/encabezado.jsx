@@ -10,7 +10,7 @@ class Encabezado extends Component {
         return (
             <div>
                 <div className="encabezado-container" >
-                    <img src={image} alt="Descripción de la imagen"/>
+                    {/*<img src={image} alt="Descripción de la imagen"/>*/}
                 </div>
             </div>
         );
