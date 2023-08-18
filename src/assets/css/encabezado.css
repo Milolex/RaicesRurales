@@ -4,9 +4,36 @@
     background-size: cover;
     background-position: center;
     background-image: url('../images/imgencabezado.jpg');
-
+    
 }
 .encabezado-container img{
     height: 100%;
     width: 100%;
+    
+}
+
+@font-face {
+    font-family: 'Barriecito-Regular.ttf';
+    src: url('../../assets/fonts/Barriecito-Regular.ttf');
+}
+.texto_superpuesto{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Barriecito-Regular.ttf' ;
+    font-size: 35px;
+
+    padding: 10px;
+}
+.parrafo {
+
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    top: 20;
+    left: 40;
+
 }
