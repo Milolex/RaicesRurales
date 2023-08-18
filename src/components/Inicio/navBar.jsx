@@ -9,7 +9,7 @@ class NavBar extends Component {
                 <nav className="navbar">
                     <ul className="navLis">
                     <div className='logo'/>
-                        <li><a href="#">Inicio1</a></li>
+                        <li><a href="#">Inicio</a></li>
                         <li><a href="#">Rutas</a></li>
                         <li><a href='#'>Contactos</a></li>
                         <li><a href='#'>Login</a></li>
