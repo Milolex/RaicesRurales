@@ -8,6 +8,7 @@ class NavBar extends Component {
             <div className="nav">
                 <nav className="navbar">
                     <ul className="navLis">
+                    <div className='logo'/>
                         <li><a href="#">Inicio</a></li>
                         <li><a href="#">Rutas</a></li>
                         <li><a href='#'>Contactos</a></li>
