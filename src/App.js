@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './components/Inicio/navBar';
 import Encabezado from './components/Inicio/encabezado';
 import Promo from './components/Inicio/promo';
+import Target from './components/Inicio/target';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavBar />
       <Encabezado />
       <Promo />
+      <Target/>
     </div>
   );
 }

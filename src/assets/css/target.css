@@ -1,0 +1,12 @@
+
+.h1{
+    display: flex;
+    margin-left: 10%;
+}
+.target_ruta{
+    width: 2%;
+    height: 2%;
+    background-image: url('../images/caminar.png');
+     display: flex; 
+    margin-left: 2%;
+}
