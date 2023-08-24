@@ -1,9 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component} from 'react';
 import PropTypes from 'prop-types';
 import "../../assets/css/navbar.css"
-
+import Encabezado from './encabezado';
+import Promo from './promo';    
 class NavBar extends Component {
     render() {
+
+        
+
+
         return (
             <div className="nav">
                 <nav className="navbar">
@@ -15,6 +20,9 @@ class NavBar extends Component {
                         <li><a href='#'>Login</a></li>
                     </ul>
                 </nav>
+                <Encabezado/>
+                <Promo/>
+            
             </div>
         );
     }
