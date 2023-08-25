@@ -1,12 +1,47 @@
-
-.h1{
-    display: flex;
-    margin-left: 10%;
-}
 .target_ruta{
-    width: 2%;
-    height: 2%;
-    background-image: url('../images/caminar.png');
-     display: flex; 
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.titulo_tar{
+    display: flex;
+    margin-left: 15px;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+}
+
+
+.image_icon{
+    width: 48px;
+    height: auto;
+    background-image: url('../../assets/images/caminar.png');
     margin-left: 2%;
+    background-repeat: no-repeat;
+}
+.image_tar {
+    max-width: 500px;
+    height: auto;
+    background-image: url('../../assets/images/target_p.jpeg');
+    margin-left: 2%;
+    margin-top: 1%;
+    
+}
+.texto_sp{
+    top: 35%;
+    left: 50%;
+    text-align: center;
+    width: 400px;
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.txt_sup{
+
+    font-size: 30px;
+    color: rgb(0, 0, 0);
 }
