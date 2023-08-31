@@ -21,15 +21,14 @@ class Target extends Component {
 
                     <img className= 'image_tar' src={imagen_t} />
 
+                    <h1 className='txt_sup'> piscina municipal</h1>
+
+                    <p className='sub_txt'> Guaduas-Cundinamarca</p>
+
+                    <p className='costo_inf'> Inicio ruta <br />costo aproximado <span className="costo_txt">$500.000</span></p>
+
                 </div>
-
-                <div className="texto_sp">
-
-                    <h1 className='txt_sup'> Raices Rurales </h1>
-
-                </div>
-                    
-               
+                
 
             </div>
 

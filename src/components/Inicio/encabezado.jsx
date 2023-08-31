@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import image from "../../assets/images/enca.jpg"
+import imagen_p from "../../assets/images/segunda_portada.jpg"
 import "../../assets/css/encabezado.css" 
 
 
@@ -10,8 +11,10 @@ class Encabezado extends Component {
         return (
             <div>
                 <div className="encabezado-container" >
-                    {/*<img src={image} alt="Descripción de la imagen"/>*/}
-                        
+                    <img className= 'imagen_p1' src={image} alt=" " />
+
+                    <img className= 'imagen_p2' src={imagen_p} alt=" " />
+
                 </div>
                  <div className="texto_superpuesto">
                     <h1> Raices Rurales </h1>

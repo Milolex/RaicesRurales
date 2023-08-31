@@ -1,16 +1,24 @@
-.encabezado-container{
-    height: 400px;
+.encabezado-container {
+    display: flex;
     height: 500px;
-    background-size: cover;
-    background-position: center;
-    background-image: url('../images/imgencabezado.jpg');
-    
-}
-.encabezado-container img{
-    height: 100%;
     width: 100%;
     
 }
+.encabezado-container img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    filter:brightness(80%);
+    transition: .7s ease;
+}
+.encabezado-container img:hover {
+    width: 500px;
+    opacity: 1;
+    filter: brightness(130%);
+
+}
+
+
 
 @font-face {
     font-family: 'Barriecito-Regular.ttf';

@@ -21,27 +21,36 @@
     margin-left: 2%;
     background-repeat: no-repeat;
 }
+
 .image_tar {
     max-width: 500px;
     height: auto;
     background-image: url('../../assets/images/target_p.jpeg');
-    margin-left: 2%;
-    margin-top: 1%;
-    
-}
-.texto_sp{
-    top: 35%;
-    left: 50%;
-    text-align: center;
-    width: 400px;
-    height: 1px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    border-radius: 3%; 
+
 
 }
 .txt_sup{
-
+    top: 810px;
+    position: absolute;
     font-size: 30px;
     color: rgb(0, 0, 0);
+}
+.sub_txt{
+    top: 845px;
+    position: absolute;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+
+    }
+.costo_txt {
+    font-weight: bold;
+    color: rgb(53, 184, 184);
+}
+.costo_inf {
+    position: relative;
+    right: 400px;
+    font-weight: bold;
+    text-align: right;
 }
