@@ -21,9 +21,10 @@ class NavBar extends Component {
                                 <ul className="submenu">
                                     <form className='login'>
                                         <b align="center" />
-                                        <label htmlFor="username"><b>Username </b></label>
+                                        <br/>
+                                        <label htmlFor="username"><b>Username </b><br/></label>
                                         <input type="text" id="username" name="username" size="18" required />&nbsp;
-                                        <br></br>
+                                        <br></br><br/>
                                         <label htmlFor="password"><b>Contraseña</b><br/></label>
                                         <input type="password" id="password" name='password' size="18" required />
                                         <p className="submit" />
