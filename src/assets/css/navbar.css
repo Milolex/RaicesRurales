@@ -106,13 +106,9 @@ form{
     z-index: 10;
 }
 
-input{
-    z-index: 100;
-}
-
 .button{
     width: 40%;
-    border-radius: 10px;
+    border-radius: 5px;
     align-items: center;
     font-size:smaller;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -121,5 +117,9 @@ input{
 
 .label{
     width: 10px;
+}
+
+.input{
+    border-radius: 5px;
 }
 
