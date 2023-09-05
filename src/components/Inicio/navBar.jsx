@@ -1,8 +1,24 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import PropTypes from 'prop-types';
 import "../../assets/css/navbar.css"
 
+
 class NavBar extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            mostrarInputs: false,
+            ocultarbotones: true
+        };
+      
+    }
+   
+
+    mostrar = () => {
+        this.setState({ mostrarInputs: !this.state.mostrarInputs });
+        this.setState({ ocultarbotones: !this.state.ocultarbotones});
+    };
+
     render() {
         console.log("isMenuOpen:", this.props.isMenuOpen);
         return (
@@ -22,14 +38,28 @@ class NavBar extends Component {
                                     <form className='login'>
                                         <b align="center" />
                                         <br/>
-                                        <label htmlFor="username"><b>Username </b><br/></label>
+                                        <label htmlFor="username"><b>Nombre Usuario</b></label><br/>
                                         <input type="text" id="username" name="username" size="18" required />&nbsp;
-                                        <br></br><br/>
-                                        <label htmlFor="password"><b>Contraseña</b><br/></label>
+                                        <br></br>
+                                        <label htmlFor="password"><b>Contraseña</b></label>
                                         <input type="password" id="password" name='password' size="18" required />
-                                        <p className="submit" />
-                                        <input type="submit" className="button" value="Entrar" />
-                                        <br /><br />
+                                        <p className="submit"/>
+                                        {this.state.mostrarInputs && (
+                                            <div>
+                                            <label htmlFor="telefono"><b>Telefono</b></label>
+                                            <input type="phone" id="telefono" name="telefono" size="18" required />&nbsp;
+                                            <label htmlFor="correo"><b>Correo</b></label>
+                                            <input type="email" id="email" name="email" size="18" required />&nbsp;
+                                            <br/><br/>
+                                            <input type="submit" className="button" value="Registrar"/>&nbsp;&nbsp;&nbsp;
+                                        </div>)}
+                                        
+                                        {this.state.ocultarbotones && (
+                                            <div>
+                                            <input type="submit" className="button" value="Entrar"/>&nbsp;&nbsp;&nbsp;
+                                            <button onClick={this.mostrar} className="button">Registrar</button>
+                                        </div>)}
+                                        <br/><br />
                                     </form>
                                 </ul>
                             )}
