@@ -5,28 +5,31 @@
     right: 5%;
     top:-10px;
     position: absolute;
-    
+    z-index: 10;
 }
 
-/* components/Navbar.module.css */
+
 .navLis{
     align-items: center;
     width: 90%;
     padding-right: 10%;
     list-style: none;
-    display: flex; /* Muestra los elementos en una fila */
+    display: flex; 
     justify-content: flex-end;
+    z-index: 10;
 }
 li{
     
     margin-top:0%; 
     padding-left: 50px;
+    z-index: 10;
     
 }
 a{
     text-align: center;
     text-decoration: none;
     color: white;
+    z-index: 10;
 }
 
 div .logo{
@@ -35,11 +38,13 @@ div .logo{
     height: 60px;
     background-size:contain;
     background-repeat: no-repeat;
+    z-index: 10;
 
 }
 
 nav > ul li {
     display:table-cell;
+    z-index: 10;
   }
    
   
@@ -49,28 +54,54 @@ nav > ul  ul {
     right: 0px;
     display:inline-table;
     transform: translateX(600%);
-    opacity: 0;
-    
-  }
-  
-  nav > ul > li:hover > ul {
     opacity: 1;
-    transform: translateX(0%); 
-    position:all;
-    background-color:black;  
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
+    z-index: 10;
   }
-  
+
+
+  .submenu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: black;
+    width: 200px;
+    transform: translateX(0%);
+    opacity: 1;
+    transition: all 0.3s ease;
+    z-index: 100;
+
+}
+
 b{
     width: 100%;
     position: relative;
     color: white;
+    z-index: 10;
 }
   
 form{
     width: 100%;
+    z-index: 100;
+}
+
+.menucheckbox:checked ~ .dropdown-menu {
+    opacity: 1;
+    transform: translateX(0%);
+    pointer-events: auto; /* Habilitar interacción cuando está visible */
+}
+  
+.labelcheck{
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.check{
+    opacity: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+input{
+    z-index: 100;
 }
